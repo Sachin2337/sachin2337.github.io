@@ -1,0 +1,210 @@
+/* Default styles for all elements */
+* {
+  max-width: 400px;
+  background: transparent; 
+  color: #fff; 
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  * {
+    max-width: 768px;
+  }
+}
+
+/* Styles for the powerup container */
+.powerup {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Styles for the powerup button */
+.powerup-btn {
+  padding: 8vw 2vw; /* Adjust padding relative to viewport width */
+  font-size: 4vw; /* Adjust font size relative to viewport width */
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  margin: 0px 0px;
+}
+
+/* Styles for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: transparent;
+  min-width: 30vw; /* Adjust min-width relative to viewport width */
+  z-index: 1;
+}
+
+/* Styles for the dropdown buttons */
+.dropdown-content button {
+  display: block;
+  padding: 3vw;
+  font-size: 3vw;
+  text-align: left;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown buttons on hover */
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+/* Styles for the individual buttons */
+#fireBtn,
+#iceBtn,
+#stealthBtn,/* Default styles for all elements */
+* {
+  max-width: 400px;
+  background: transparent; 
+  color: #fff; 
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+  * {
+    max-width: 768px;
+  }
+}
+
+/* Styles for the powerup container */
+.powerup {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+/* Styles for the powerup button */
+.powerup-btn {
+  padding: 8vw 2vw; /* Adjust padding relative to viewport width */
+  font-size: 4vw; /* Adjust font size relative to viewport width */
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  margin: 0px 0px;
+}
+
+/* Styles for the dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: -141%;
+  left: -120%;
+  right: calc(100% + 5px); /* Adjust right position to align with powerup button */
+  min-width: 30vw; /* Adjust min-width relative to viewport width */
+  z-index: 1;
+  border-top-left-radius: 25px; /* Add border-radius for the curved left side */
+  border-bottom-left-radius: 25px; /* Add border-radius for the curved left side */
+}
+
+/* Styles for the dropdown buttons */
+.dropdown-content button {
+  display: block;
+  padding: 3vw;
+  font-size: 3vw;
+  text-align: left;
+  width: 100%;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown buttons on hover */
+.dropdown-content button:hover {
+  background-color: #ddd;
+}
+
+/* Styles for the individual buttons */
+#fireBtn,
+#iceBtn,
+#stealthBtn,
+#trapBtn,
+#sonarplusBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #9b9b9b;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+}
+
+
+#trapBtn,
+#sonarplusBtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #9b9b9b;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+}
+
+/* Hover effect for the individual buttons */
+#fireBtn:hover {
+  background-color: #ff2c2c;
+}
+
+#iceBtn:hover {
+  background-color: #48b6f7;
+}
+
+#stealthBtn:hover {
+  background-color: #04d643;
+}
+
+#trapBtn:hover {
+  background-color: #000000;
+}
+
+#sonarplusBtn:hover {
+  background-color: #600cfa;
+}
+
+
+
+#fireBtn {
+  position: relative;
+  left: 85%;
+  margin-top: 19%;
+}
+
+#iceBtn {
+  position: relative;
+  left: 24%;
+  margin-top: -23%;
+}
+
+#stealthBtn {
+  position: relative;
+  margin-top: 21%;
+}
+
+#trapBtn {
+  position: relative;
+  left: 18%;
+  margin-top: 23%;
+}
+
+#sonarplusBtn {
+  position: relative;
+  left: 86%;
+  margin-top: -13%;
+}
